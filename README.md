@@ -44,6 +44,6 @@ This project implements a basic decentralized exchange (DEX) with functionalitie
 3. **DAO Integration**: Enable the creation and management of decentralized autonomous organizations (DAOs) within the platform.
 
 ### Security and Compliance
-1.**Insurance Funds**: Create insurance mechanisms to protect users against smart contract vulnerabilities.
+  1.**Insurance Funds**: Create insurance mechanisms to protect users against smart contract vulnerabilities.
 
-2. **Auditing Tools**: Integrate tools for real-time monitoring and auditing of smart contracts.
+  2. **Auditing Tools**: Integrate tools for real-time monitoring and auditing of smart contracts.
