@@ -1,0 +1,292 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "dex",
+				"outputs": [
+					{
+						"internalType": "contract TheDex",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "factory",
+				"outputs": [
+					{
+						"internalType": "contract TheDexFactory",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "governance",
+				"outputs": [
+					{
+						"internalType": "contract Governance",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setup",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testAddLiquidity",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testGovernance",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testRemoveLiquidity",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testSwap",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token1",
+				"outputs": [
+					{
+						"internalType": "contract TheDexToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token2",
+				"outputs": [
+					{
+						"internalType": "contract TheDexToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/TestTheDex.sol": "TestTheDex"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/interfaces/draft-IERC6093.sol": {
+			"keccak256": "0x60c65f701957fdd6faea1acb0bb45825791d473693ed9ecb34726fdfaa849dd7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ea290300e0efc4d901244949dc4d877fd46e6c5e43dc2b26620e8efab3ab803f",
+				"dweb:/ipfs/QmcLLJppxKeJWqHxE2CUkcfhuRTgHSn8J4kijcLa5MYhSt"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0xc3e1fa9d1987f8d349dfb4d6fe93bf2ca014b52ba335cfac30bfe71e357e6f80",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c5703ccdeb7b1d685e375ed719117e9edf2ab4bc544f24f23b0d50ec82257229",
+				"dweb:/ipfs/QmTdwkbQq7owpCiyuzE7eh5LrD2ddrBCZ5WHVsWPi1RrTS"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0xc6a8ff0ea489379b61faa647490411b80102578440ab9d84e9a957cc12164e70",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ea104e577e63faea3b69c415637e99e755dcbf64c5833d7140c35a714d6d90c",
+				"dweb:/ipfs/Qmau6x4Ns9XdyynRCNNp3RhLqijJjFm7z5fyZazfYFGYdq"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+			"keccak256": "0xaa761817f6cd7892fcf158b3c776b34551cde36f48ff9703d53898bc45a94ea2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ad7c8d4d08938c8dfc43d75a148863fb324b80cf53e0a36f7e5a4ac29008850",
+				"dweb:/ipfs/QmcrhfPgVNf5mkdhQvy1pMv51TFokD3Y4Wa5WZhFqVh8UV"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Permit.sol": {
+			"keccak256": "0x6008dabfe393240d73d7dd7688033f72740d570aa422254d29a7dce8568f3aff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5196ec75139918c6c7bb4251b36395e668f1fa6d206beba7e7520e74913940d",
+				"dweb:/ipfs/QmSyqjksXxmm2mCG6qRd1yuwLykypkSVBbnBnGqJRcuJMi"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol": {
+			"keccak256": "0x37bb49513c49c87c4642a891b13b63571bc87013dde806617aa1efb54605f386",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3036b3a83b7c48f96641f2a9002b9f2dcb6a5958dd670894ada21ae8229b3d0",
+				"dweb:/ipfs/QmUNfSBdoVtjhETaUJCYcaC7pTMgbhht926tJ2uXJbiVd3"
+			]
+		},
+		"@openzeppelin/contracts/utils/Address.sol": {
+			"keccak256": "0xaf28a975a78550e45f65e559a3ad6a5ad43b9b8a37366999abd1b7084eb70721",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b7bd24e224f67f65bfadf85dc2929fa965456bb2415478bd0125471b5ce35245",
+				"dweb:/ipfs/QmRaydGr8BTHs1kvaZfsNU69pKzUAGFrvABn1KiRSbE51y"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0x493033a8d1b176a037b2cc6a04dad01a5c157722049bbecf632ca876224dd4b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6a708e8a5bdb1011c2c381c9a5cfd8a9a956d7d0a9dc1bd8bcdaf52f76ef2f12",
+				"dweb:/ipfs/Qmax9WHBnVsZP46ZxEMNRQpLQnrdE4dK8LehML1Py8FowF"
+			]
+		},
+		"contracts/Governance.sol": {
+			"keccak256": "0x43e30c59ada31a744a1eb2fa756ef2fb36980e68d0d318e06b9624557fffdad0",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9da77efd63cb53ab3da1214176b42df06f1ce2bcdba485758abbdd4afc3ffbc0",
+				"dweb:/ipfs/QmatPnvEY1KR4k79TiBFsz87tWBCvDfiCjJ9NERTUS9Whc"
+			]
+		},
+		"contracts/TheDex.sol": {
+			"keccak256": "0xe0a2497d749eb30234cbe101faf267022c24db651d2840c73627b3323e07ef0d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ff531a2814110761c38ced60f266cc740bdf92dc3f86154783fe0a9a9102f7ba",
+				"dweb:/ipfs/QmNm37LASo27kZhwyo42CzJvatV298b44aZ23cQvKFbzgJ"
+			]
+		},
+		"contracts/TheDexFactory.sol": {
+			"keccak256": "0x90f84b493921f6bdeb065d1d49223a235b34f93b7f90d1f005c59b7e59a92c99",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fbfd8c286e1289ec440a9e96609ea297efcb35269322df8aace97ba972f533ac",
+				"dweb:/ipfs/QmUk6ufLqfwD7BuhQ4mgmJe86hp53XKGBqRUJCDZXi8mXP"
+			]
+		},
+		"contracts/TheDexToken.sol": {
+			"keccak256": "0x407597eb35dc831f66d7872818375428b830e04385f34ef0c175c31777dfd82d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9d99320d9d3f8134e30871a3eee7a545f6045a19070b171fcf17801196b992c6",
+				"dweb:/ipfs/QmQBUym1g6oNPMDkzXL4wD51wgfRWCkaQ6L5H3nujVvjV2"
+			]
+		},
+		"tests/TestTheDex.sol": {
+			"keccak256": "0xc52482769788a084bce2ace97aa7e6a251c8606db0abfa505fe49d2acaf564ec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dedc68e5adcdcfe08110883bef3e579cc0587c97002786e004f6a020eb9f0998",
+				"dweb:/ipfs/QmZ5awfAQtVRhTKe4pgt3ZSZxdYvxavkoWW1SNJndjiCQk"
+			]
+		},
+		"tests/TestTheDexLibrary.sol": {
+			"keccak256": "0x23a20d0238985b009485fd6bf7b21076f5311f143a385a62cb95648ad3f4e11b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://51d8a2863cf4976947f016f6215f68185834eeb00e4d8a009a414c4f289763e2",
+				"dweb:/ipfs/QmPynubA8BAwnoSWiJ2uHgM5375ya51SfGGi4hmZTDo1Yn"
+			]
+		}
+	},
+	"version": 1
+}
