@@ -45,4 +45,5 @@ This project implements a basic decentralized exchange (DEX) with functionalitie
 
 ### Security and Compliance
 1.**Insurance Funds**: Create insurance mechanisms to protect users against smart contract vulnerabilities.
+
 2. **Auditing Tools**: Integrate tools for real-time monitoring and auditing of smart contracts.
